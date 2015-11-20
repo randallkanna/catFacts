@@ -14,6 +14,7 @@
 		B5053C601BFDBF8300637192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5053C5F1BFDBF8300637192 /* Images.xcassets */; };
 		B5053C631BFDBF8300637192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5053C611BFDBF8300637192 /* LaunchScreen.xib */; };
 		B5053C6F1BFDBF8300637192 /* catFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5053C6E1BFDBF8300637192 /* catFactsTests.m */; };
+		B5053C7A1BFEFCCD00637192 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = B5053C791BFEFCCD00637192 /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B5053C681BFDBF8300637192 /* catFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5053C6D1BFDBF8300637192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5053C6E1BFDBF8300637192 /* catFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = catFactsTests.m; sourceTree = "<group>"; };
+		B5053C781BFEFCCD00637192 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		B5053C791BFEFCCD00637192 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B5053C591BFDBF8300637192 /* ViewController.h */,
 				B5053C5A1BFDBF8300637192 /* ViewController.m */,
 				B5053C5C1BFDBF8300637192 /* Main.storyboard */,
+				B5053C781BFEFCCD00637192 /* FactBook.h */,
+				B5053C791BFEFCCD00637192 /* FactBook.m */,
 				B5053C5F1BFDBF8300637192 /* Images.xcassets */,
 				B5053C611BFDBF8300637192 /* LaunchScreen.xib */,
 				B5053C521BFDBF8200637192 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				B5053C5B1BFDBF8300637192 /* ViewController.m in Sources */,
 				B5053C581BFDBF8300637192 /* AppDelegate.m in Sources */,
+				B5053C7A1BFEFCCD00637192 /* FactBook.m in Sources */,
 				B5053C551BFDBF8200637192 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
